@@ -7,7 +7,7 @@ var class_f_p_character_controller_1_1_platform_rotation =
     [ "ParentPlayer", "class_f_p_character_controller_1_1_platform_rotation.html#ad98862a4d161abfae84342c9a0e07464", null ],
     [ "Update", "class_f_p_character_controller_1_1_platform_rotation.html#a4aff62df86147b5e0c63b53df618c8ef", null ],
     [ "isParented", "class_f_p_character_controller_1_1_platform_rotation.html#a2f9ec7ee6e367d2891ae9890c2bbf5ca", null ],
-    [ "Player", "class_f_p_character_controller_1_1_platform_rotation.html#adb2a9fa00a05b451a77e827cd52f8c17", null ],
+    [ "player", "class_f_p_character_controller_1_1_platform_rotation.html#aca601046d930402c97fc5e2cae347aa3", null ],
     [ "startPos", "class_f_p_character_controller_1_1_platform_rotation.html#aee05be3d696e8adce443ee0fe1a201ba", null ],
     [ "xAngle", "class_f_p_character_controller_1_1_platform_rotation.html#acf3a917231661d88470d4bb5ebb4259b", null ],
     [ "yAngle", "class_f_p_character_controller_1_1_platform_rotation.html#a84b3c27ce2321aef2a18f4b0e560bb92", null ],

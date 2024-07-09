@@ -19,7 +19,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="my_customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="custom_doxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -93,7 +93,6 @@ $(function(){initNavTree('class_f_p_character_controller_1_1_bounce_pad.html',''
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_f_p_character_controller_1_1_bounce_pad-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">FPCharacterController.BouncePad Class Reference</div></div>
@@ -109,15 +108,12 @@ Inheritance diagram for FPCharacterController.BouncePad:</div>
   <img src="class_f_p_character_controller_1_1_bounce_pad.png" alt=""/>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a60171d07d4d78c317aca71456ec15558" id="r_a60171d07d4d78c317aca71456ec15558"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_f_p_character_controller_1_1_player_movement.html">PlayerMovement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60171d07d4d78c317aca71456ec15558">movement</a></td></tr>
-<tr class="separator:a60171d07d4d78c317aca71456ec15558"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a860ccd3cf6f8b45723c98667f4f90e38" id="r_a860ccd3cf6f8b45723c98667f4f90e38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a860ccd3cf6f8b45723c98667f4f90e38">OnTriggerEnter</a> (Collider other)</td></tr>
 <tr class="separator:a860ccd3cf6f8b45723c98667f4f90e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fa1d625c94dc5ff224ed44c58b42728" id="r_a4fa1d625c94dc5ff224ed44c58b42728"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fa1d625c94dc5ff224ed44c58b42728">OnTriggerExit</a> (Collider other)</td></tr>
+<tr class="separator:a4fa1d625c94dc5ff224ed44c58b42728"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class handles the bounce pad mechanic by using a simple trigger and referencing the core PlayerMovement script. </p>
@@ -147,21 +143,34 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a60171d07d4d78c317aca71456ec15558" name="a60171d07d4d78c317aca71456ec15558"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60171d07d4d78c317aca71456ec15558">&#9670;&#160;</a></span>movement</h2>
+<a id="a4fa1d625c94dc5ff224ed44c58b42728" name="a4fa1d625c94dc5ff224ed44c58b42728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fa1d625c94dc5ff224ed44c58b42728">&#9670;&#160;</a></span>OnTriggerExit()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_f_p_character_controller_1_1_player_movement.html">PlayerMovement</a> FPCharacterController.BouncePad.movement</td>
+          <td class="memname">void FPCharacterController.BouncePad.OnTriggerExit </td>
+          <td>(</td>
+          <td class="paramtype">Collider</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Assets/SwitchbackGames/FPCharacterController/Scripts/<b>BouncePad.cs</b></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

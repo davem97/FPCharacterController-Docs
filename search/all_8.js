@@ -1,6 +1,30 @@
 var searchData=
 [
-  ['jumpaction_0',['JumpAction',['../class_f_p_character_controller_1_1_player_movement.html#a84e4d31aacc49eb61bae7bae28ba2dd2',1,'FPCharacterController::PlayerMovement']]],
-  ['jumpcooldown_1',['jumpCooldown',['../class_f_p_character_controller_1_1_player_movement.html#a103d970721ee26432590a9b6a50ba828',1,'FPCharacterController::PlayerMovement']]],
-  ['jumpheight_2',['jumpHeight',['../class_f_p_character_controller_1_1_player_movement.html#a808cf48a9b98578a78aef839167c4747',1,'FPCharacterController::PlayerMovement']]]
+  ['initialdashcooldown_0',['initialDashCooldown',['../class_f_p_character_controller_1_1_player_movement.html#ab1014f91f8e33d3d5ba52518cf9c7f47',1,'FPCharacterController::PlayerMovement']]],
+  ['initialfieldofview_1',['initialFieldOfView',['../class_f_p_character_controller_1_1_player_movement.html#ab5c264c5511198e3b75dc9ce514069bd',1,'FPCharacterController::PlayerMovement']]],
+  ['initializecamera_2',['InitializeCamera',['../class_f_p_character_controller_1_1_player_movement.html#ae85ffd888bb85a8900c580d432f1c88d',1,'FPCharacterController::PlayerMovement']]],
+  ['initialray_3',['initialRay',['../class_f_p_character_controller_1_1_mantle.html#a0da223d06454a7756af25a4cccba6b7a',1,'FPCharacterController::Mantle']]],
+  ['initialrotatetowardsladder_4',['InitialRotateTowardsLadder',['../class_f_p_character_controller_1_1_ladder.html#a61dbe22c5863880230b0d7418221b72a',1,'FPCharacterController::Ladder']]],
+  ['inputandmovement_5',['InputAndMovement',['../class_f_p_character_controller_1_1_player_movement.html#a4d008f1ad6f06736406052ca8a2dc260',1,'FPCharacterController::PlayerMovement']]],
+  ['insecondarytrigger_6',['inSecondaryTrigger',['../class_f_p_character_controller_1_1_ladder.html#a0002a2bb48c2a91916685d0e6a05fe81',1,'FPCharacterController::Ladder']]],
+  ['instantiateplayerprefab_7',['InstantiatePlayerPrefab',['../class_f_p_character_controller_1_1_project_scene_manager.html#ab348f3cef954d709b6e323c70fd3d411',1,'FPCharacterController::ProjectSceneManager']]],
+  ['isboosted_8',['isBoosted',['../class_f_p_character_controller_1_1_speed_boost.html#a8c314916bc86a8de5cf19d697bf50d4f',1,'FPCharacterController::SpeedBoost']]],
+  ['isceilingabove_9',['isCeilingAbove',['../class_f_p_character_controller_1_1_player_movement.html#a546ba4644732b1cf5cf58e9c92a70cc5',1,'FPCharacterController::PlayerMovement']]],
+  ['isclimbingstate_10',['isClimbingState',['../class_f_p_character_controller_1_1_mantle.html#aeb11b36b39d92eef3c212937296b2ce5',1,'FPCharacterController.Mantle.isClimbingState'],['../class_f_p_character_controller_1_1_water.html#adf37528774b6e65dd5a02d3236ffd398',1,'FPCharacterController.Water.isClimbingState']]],
+  ['iscloseenoughtoladder_11',['IsCloseEnoughToLadder',['../class_f_p_character_controller_1_1_ladder.html#ae5198e9a006714f658054ec0eded2db3',1,'FPCharacterController::Ladder']]],
+  ['iscrouching_12',['isCrouching',['../class_f_p_character_controller_1_1_player_movement.html#a7832aacc248469ef101112b35c275633',1,'FPCharacterController::PlayerMovement']]],
+  ['iscurrentlycrouched_13',['isCurrentlyCrouched',['../class_f_p_character_controller_1_1_player_movement.html#ad8e3b1d5e8b7f9ec1cbe3d0967d8c20e',1,'FPCharacterController::PlayerMovement']]],
+  ['isfacingladder_14',['IsFacingLadder',['../class_f_p_character_controller_1_1_ladder.html#a5781f958d65dd3928a19d40d93b064d8',1,'FPCharacterController::Ladder']]],
+  ['isgrounded_15',['isGrounded',['../class_f_p_character_controller_1_1_player_movement.html#ae1f613d3b070c8ccefb9499a017a2056',1,'FPCharacterController::PlayerMovement']]],
+  ['isincooldown_16',['isInCooldown',['../class_f_p_character_controller_1_1_mantle.html#a033548a9d7e05530004c375788b8758c',1,'FPCharacterController::Mantle']]],
+  ['isinwater_17',['isInWater',['../class_f_p_character_controller_1_1_water.html#ad8b929e44b2efc86af24a7378c4e2f90',1,'FPCharacterController::Water']]],
+  ['isjumping_18',['isJumping',['../class_f_p_character_controller_1_1_player_movement.html#a235d9db5f221fc1bfb56148137dced45',1,'FPCharacterController::PlayerMovement']]],
+  ['ismovingandrotating_19',['isMovingAndRotating',['../class_f_p_character_controller_1_1_ladder.html#a34f9557faa136354021758abdd48ffee',1,'FPCharacterController::Ladder']]],
+  ['isonslope_20',['IsOnSlope',['../class_f_p_character_controller_1_1_player_movement.html#a1c362bc894d767b6fdf65146daf0d5f5',1,'FPCharacterController::PlayerMovement']]],
+  ['isparented_21',['isParented',['../class_f_p_character_controller_1_1_platform_ping_pong.html#a148e14ee8efb4d757394cad9921298eb',1,'FPCharacterController.PlatformPingPong.isParented'],['../class_f_p_character_controller_1_1_second_ping_pong.html#a8c55fb3dc666bfa53473b03c0f53a97d',1,'FPCharacterController.SecondPingPong.isParented'],['../class_f_p_character_controller_1_1_platform_anim_move.html#a03a0f650fea3736c39de3030595176bc',1,'FPCharacterController.PlatformAnimMove.isParented'],['../class_f_p_character_controller_1_1_platform_rotation.html#a2f9ec7ee6e367d2891ae9890c2bbf5ca',1,'FPCharacterController.PlatformRotation.isParented'],['../class_f_p_character_controller_1_1_platform_side_to_side.html#a08f3ab0af5acbac8f4cc281b0fb91633',1,'FPCharacterController.PlatformSideToSide.isParented'],['../class_f_p_character_controller_1_1_platform_up_down.html#ae3b2b03719b79d4152c8c077b9392217',1,'FPCharacterController.PlatformUpDown.isParented']]],
+  ['ispushing_22',['isPushing',['../class_f_p_character_controller_1_1_mantle.html#af1e5ca548acbec39cbca977ee4b75bef',1,'FPCharacterController::Mantle']]],
+  ['isrotating_23',['isRotating',['../class_f_p_character_controller_1_1_follow_player.html#a2eb7bade10909fc69db9b8f320461453',1,'FPCharacterController::FollowPlayer']]],
+  ['issliding_24',['isSliding',['../class_f_p_character_controller_1_1_player_movement.html#a40a363397a54da9073b6f2e5c3296af8',1,'FPCharacterController::PlayerMovement']]],
+  ['isslowed_25',['isSlowed',['../class_f_p_character_controller_1_1_slow_area.html#a834ead1c20b1e752d08befff052b38ed',1,'FPCharacterController::SlowArea']]],
+  ['issmallsphereormesh_26',['IsSmallSphereOrMesh',['../class_f_p_character_controller_1_1_player_movement.html#a5e9c4197c6d6a4e16529cc26c16093f2',1,'FPCharacterController::PlayerMovement']]]
 ];

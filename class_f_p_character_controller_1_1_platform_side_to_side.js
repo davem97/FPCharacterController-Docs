@@ -8,7 +8,7 @@ var class_f_p_character_controller_1_1_platform_side_to_side =
     [ "Start", "class_f_p_character_controller_1_1_platform_side_to_side.html#a6be8e1b8f6a14ef53400c2c4a18c1da3", null ],
     [ "Update", "class_f_p_character_controller_1_1_platform_side_to_side.html#ab490fd13d823ab8c674a6ab998f8b8b6", null ],
     [ "isParented", "class_f_p_character_controller_1_1_platform_side_to_side.html#a08f3ab0af5acbac8f4cc281b0fb91633", null ],
-    [ "Player", "class_f_p_character_controller_1_1_platform_side_to_side.html#a5423bb782135ff4a887603bd614bf8ec", null ],
+    [ "player", "class_f_p_character_controller_1_1_platform_side_to_side.html#a2f5d9fe014ce65249daf64067d496e64", null ],
     [ "resetScale", "class_f_p_character_controller_1_1_platform_side_to_side.html#aad79cc51d02a2e1ecb8b8568ab8a0074", null ],
     [ "startPos", "class_f_p_character_controller_1_1_platform_side_to_side.html#ad5fe10000da8574132da5d121c457578", null ],
     [ "xAngle", "class_f_p_character_controller_1_1_platform_side_to_side.html#aaf884f2125d0fef6ae365e5a1a2de144", null ],

@@ -45,8 +45,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_f_p_character_controller_1_1_platform_up_down.html#a36fac29b9a31d289b704804eccd00f14",
-"class_f_p_character_controller_1_1_speed_boost.html#a1de21e6b463b3fb0cce97695ed239825"
+"class_f_p_character_controller_1_1_mantle.html#ab1c95063ad7fa883523e91dd24cd738f",
+"class_f_p_character_controller_1_1_player_movement.html#aa577081b8235e71cebccef50d3768557",
+"class_f_p_character_controller_1_1_weapon_sway.html#a19a137caff5fc2b36da538e5f9eeb320"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

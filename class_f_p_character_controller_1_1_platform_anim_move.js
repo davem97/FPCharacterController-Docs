@@ -6,5 +6,5 @@ var class_f_p_character_controller_1_1_platform_anim_move =
     [ "ParentPlayer", "class_f_p_character_controller_1_1_platform_anim_move.html#a93c58c0816bb8961ca75373493f99c02", null ],
     [ "Update", "class_f_p_character_controller_1_1_platform_anim_move.html#ac29397e45c7e50cdcd9fdf8549683e6e", null ],
     [ "isParented", "class_f_p_character_controller_1_1_platform_anim_move.html#a03a0f650fea3736c39de3030595176bc", null ],
-    [ "Player", "class_f_p_character_controller_1_1_platform_anim_move.html#aea42557a5ef2c8835dd2d4d1e1dc3f29", null ]
+    [ "player", "class_f_p_character_controller_1_1_platform_anim_move.html#abbff8f5f0e87564210c0bdc2348f9819", null ]
 ];

@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['resetaction_0',['ResetAction',['../class_f_p_character_controller_1_1_water.html#a47019b46832d2b3bce8deadd83a20224',1,'FPCharacterController::Water']]],
-  ['runboxcast_1',['RunBoxCast',['../class_f_p_character_controller_1_1_mantle.html#a6e6c89ea5a6614e129495744fadef2e0',1,'FPCharacterController::Mantle']]],
-  ['runcapsulecast_2',['RunCapsuleCast',['../class_f_p_character_controller_1_1_mantle.html#a61e30efa4efbec8cfec0909980991eef',1,'FPCharacterController::Mantle']]],
-  ['runoverlapbox_3',['RunOverlapBox',['../class_f_p_character_controller_1_1_mantle.html#a9210b2fbd75223f75e48dab37ddaa5f3',1,'FPCharacterController::Mantle']]],
-  ['runspherecast_4',['RunSphereCast',['../class_f_p_character_controller_1_1_mantle.html#a82e46f3eb2196d5bc25c10178b1938f8',1,'FPCharacterController::Mantle']]]
+  ['parentplayer_0',['ParentPlayer',['../class_f_p_character_controller_1_1_platform_ping_pong.html#a1b88cb47024c6870400421224636aede',1,'FPCharacterController.PlatformPingPong.ParentPlayer()'],['../class_f_p_character_controller_1_1_second_ping_pong.html#a6d057b83a6e142f6769357e3260f1071',1,'FPCharacterController.SecondPingPong.ParentPlayer()'],['../class_f_p_character_controller_1_1_platform_anim_move.html#a93c58c0816bb8961ca75373493f99c02',1,'FPCharacterController.PlatformAnimMove.ParentPlayer()'],['../class_f_p_character_controller_1_1_platform_rotation.html#ad98862a4d161abfae84342c9a0e07464',1,'FPCharacterController.PlatformRotation.ParentPlayer()'],['../class_f_p_character_controller_1_1_platform_side_to_side.html#ae4b7eaf7671dfab7e74e4492d7ca2317',1,'FPCharacterController.PlatformSideToSide.ParentPlayer()'],['../class_f_p_character_controller_1_1_platform_up_down.html#a2ec0531498028c18e1de0b2137d538d7',1,'FPCharacterController.PlatformUpDown.ParentPlayer()']]],
+  ['positioncamera_1',['PositionCamera',['../class_f_p_character_controller_1_1_follow_player.html#a7e69c48ca7e776d9af859a0b9edd80b7',1,'FPCharacterController::FollowPlayer']]]
 ];

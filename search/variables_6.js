@@ -5,5 +5,5 @@ var searchData=
   ['heightabove_2',['heightAbove',['../class_f_p_character_controller_1_1_mantle.html#a9d507e2ad99f24ea21581db8cec9d7d5',1,'FPCharacterController::Mantle']]],
   ['heightfromplayer_3',['heightFromPlayer',['../class_f_p_character_controller_1_1_third_person.html#aa1fe35e9adcb47f0152e45375d1c2a43',1,'FPCharacterController::ThirdPerson']]],
   ['hit_4',['hit',['../class_f_p_character_controller_1_1_player_movement.html#aa321cf79d497870d7602c6c4597f4fc3',1,'FPCharacterController::PlayerMovement']]],
-  ['hitpointnormal_5',['hitPointNormal',['../class_f_p_character_controller_1_1_player_movement.html#a53bf93d4f82f2e3ec85b6465a454ff1f',1,'FPCharacterController::PlayerMovement']]]
+  ['hits_5',['hits',['../class_f_p_character_controller_1_1_mantle.html#a4a8e83c4273d984a9c2eeeeafde2e4cb',1,'FPCharacterController::Mantle']]]
 ];

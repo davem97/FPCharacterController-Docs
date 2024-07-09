@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['y_0',['y',['../class_ladder.html#a918656908f913d8186a5625536195dc2',1,'Ladder']]],
-  ['yangle_1',['yAngle',['../class_f_p_character_controller_1_1_platform_rotation.html#a84b3c27ce2321aef2a18f4b0e560bb92',1,'FPCharacterController.PlatformRotation.yAngle'],['../class_f_p_character_controller_1_1_platform_side_to_side.html#aba34ca023f17a0c5d2aae8b1eb27e027',1,'FPCharacterController.PlatformSideToSide.yAngle']]],
-  ['yaxis_2',['yAxis',['../class_f_p_character_controller_1_1_follow_player.html#a862ec30a227f13a9241f91d8ca310f87',1,'FPCharacterController::FollowPlayer']]],
-  ['yrotationlimit_3',['yRotationLimit',['../class_f_p_character_controller_1_1_follow_player.html#af7ede6824881786898cc71f51a58aa70',1,'FPCharacterController::FollowPlayer']]]
+  ['x_0',['x',['../class_f_p_character_controller_1_1_player_movement.html#a3f91c2805a11d7b6f431492410d4c38e',1,'FPCharacterController.PlayerMovement.x'],['../class_f_p_character_controller_1_1_water.html#a90216f41fe3125e908db975331939bbe',1,'FPCharacterController.Water.x']]],
+  ['xangle_1',['xAngle',['../class_f_p_character_controller_1_1_platform_rotation.html#acf3a917231661d88470d4bb5ebb4259b',1,'FPCharacterController.PlatformRotation.xAngle'],['../class_f_p_character_controller_1_1_platform_side_to_side.html#aaf884f2125d0fef6ae365e5a1a2de144',1,'FPCharacterController.PlatformSideToSide.xAngle']]],
+  ['xaxis_2',['xAxis',['../class_f_p_character_controller_1_1_follow_player.html#af6679b1132738e3522d5c334fc2f6107',1,'FPCharacterController::FollowPlayer']]],
+  ['xrotationlimit_3',['xRotationLimit',['../class_f_p_character_controller_1_1_follow_player.html#ad421ed0f2f7cb5de83f8d6824304174d',1,'FPCharacterController::FollowPlayer']]]
 ];

@@ -19,7 +19,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="my_customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="custom_doxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -93,6 +93,7 @@ $(function(){initNavTree('class_f_p_character_controller_1_1_follow_player.html'
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -112,9 +113,15 @@ Inheritance diagram for FPCharacterController.FollowPlayer:</div>
   <img src="class_f_p_character_controller_1_1_follow_player.png" alt=""/>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:abfed2be74dece66102bdc411e839b274" id="r_abfed2be74dece66102bdc411e839b274"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfed2be74dece66102bdc411e839b274">AlignCameraToLadder</a> (Transform ladder, float duration, Action onComplete)</td></tr>
+<tr class="memdesc:abfed2be74dece66102bdc411e839b274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aligns the Main Camera to the ladder when attempting to climb it. The y-axis is important as we are trying to align the camera to the ladder.  <br /></td></tr>
+<tr class="separator:abfed2be74dece66102bdc411e839b274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:adb79cf961f194453f5c7fc8d4d3bae77" id="r_adb79cf961f194453f5c7fc8d4d3bae77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ladder.html">Ladder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb79cf961f194453f5c7fc8d4d3bae77">climbing</a></td></tr>
+<tr class="memitem:adb79cf961f194453f5c7fc8d4d3bae77" id="r_adb79cf961f194453f5c7fc8d4d3bae77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_f_p_character_controller_1_1_ladder.html">Ladder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb79cf961f194453f5c7fc8d4d3bae77">climbing</a></td></tr>
 <tr class="separator:adb79cf961f194453f5c7fc8d4d3bae77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9ecdd8cc34b42968da245f0a86492f4" id="r_ad9ecdd8cc34b42968da245f0a86492f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_f_p_character_controller_1_1_mantle.html">Mantle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9ecdd8cc34b42968da245f0a86492f4">mantle</a></td></tr>
 <tr class="separator:ad9ecdd8cc34b42968da245f0a86492f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,6 +131,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4531d0408442a2034834504cc7d0b222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dd78b9226ca5f78579096af02fde9c7" id="r_a3dd78b9226ca5f78579096af02fde9c7"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dd78b9226ca5f78579096af02fde9c7">originalOffset</a> = new Vector3(0f, 0.760f, 0f)</td></tr>
 <tr class="separator:a3dd78b9226ca5f78579096af02fde9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41184d66a91708f8ad5751337dbfaee0" id="r_a41184d66a91708f8ad5751337dbfaee0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41184d66a91708f8ad5751337dbfaee0">rotationDuration</a> = 1.5f</td></tr>
+<tr class="separator:a41184d66a91708f8ad5751337dbfaee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -137,13 +146,17 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a794f75bb506a1dd4a9fd6fe0f630a361" id="r_a794f75bb506a1dd4a9fd6fe0f630a361"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a794f75bb506a1dd4a9fd6fe0f630a361">Update</a> ()</td></tr>
 <tr class="separator:a794f75bb506a1dd4a9fd6fe0f630a361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e69c48ca7e776d9af859a0b9edd80b7" id="r_a7e69c48ca7e776d9af859a0b9edd80b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e69c48ca7e776d9af859a0b9edd80b7">PositionCamera</a> ()</td></tr>
+<tr class="memdesc:a7e69c48ca7e776d9af859a0b9edd80b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Positions the Main Camera based on player position and offset.  <br /></td></tr>
 <tr class="separator:a7e69c48ca7e776d9af859a0b9edd80b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af62b76c6eeb688b102d1a208e330a6b5" id="r_af62b76c6eeb688b102d1a208e330a6b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af62b76c6eeb688b102d1a208e330a6b5">DoLadderCameraControls</a> ()</td></tr>
-<tr class="separator:af62b76c6eeb688b102d1a208e330a6b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac97e5361d6aae25c6e9de7c12026cf61" id="r_ac97e5361d6aae25c6e9de7c12026cf61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac97e5361d6aae25c6e9de7c12026cf61">DoMantleCameraControls</a> ()</td></tr>
-<tr class="separator:ac97e5361d6aae25c6e9de7c12026cf61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a100d504dc55932b1c395d33b9d1a5b78" id="r_a100d504dc55932b1c395d33b9d1a5b78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a100d504dc55932b1c395d33b9d1a5b78">DoNormalCameraControls</a> ()</td></tr>
-<tr class="separator:a100d504dc55932b1c395d33b9d1a5b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f3aa23a3e1ea6158983d28e3956afba" id="r_a0f3aa23a3e1ea6158983d28e3956afba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f3aa23a3e1ea6158983d28e3956afba">HandleAlternateCameraControls</a> (Quaternion currentRotation)</td></tr>
+<tr class="memdesc:a0f3aa23a3e1ea6158983d28e3956afba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the different non-default camera functionality and movement. The currentRotation is used which can be different based on the script in use, and is needed in order to clamp the horizontal camera rotation when mantling and climbing.  <br /></td></tr>
+<tr class="separator:a0f3aa23a3e1ea6158983d28e3956afba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a089d3e835f301f33fdf1ef3fdeb77753" id="r_a089d3e835f301f33fdf1ef3fdeb77753"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a089d3e835f301f33fdf1ef3fdeb77753">HandleNormalCameraControls</a> ()</td></tr>
+<tr class="memdesc:a089d3e835f301f33fdf1ef3fdeb77753"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is the default Main Camera movement and functionality that is used.  <br /></td></tr>
+<tr class="separator:a089d3e835f301f33fdf1ef3fdeb77753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a191b9f63a82db8c5897d434a8f931be9" id="r_a191b9f63a82db8c5897d434a8f931be9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a191b9f63a82db8c5897d434a8f931be9">RotateToLadder</a> ()</td></tr>
+<tr class="memdesc:a191b9f63a82db8c5897d434a8f931be9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method begins the rotation towards the ladder when attempting to climb.  <br /></td></tr>
+<tr class="separator:a191b9f63a82db8c5897d434a8f931be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -157,8 +170,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ad421ed0f2f7cb5de83f8d6824304174d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ea6e48939a81780f013c9b827b7a460" id="r_a4ea6e48939a81780f013c9b827b7a460"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ea6e48939a81780f013c9b827b7a460">rotation</a> = Vector2.zero</td></tr>
 <tr class="separator:a4ea6e48939a81780f013c9b827b7a460"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7c70303f2861b656e52bd10f2e3168d" id="r_ac7c70303f2861b656e52bd10f2e3168d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7c70303f2861b656e52bd10f2e3168d">willClimb</a></td></tr>
-<tr class="separator:ac7c70303f2861b656e52bd10f2e3168d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eb7bade10909fc69db9b8f320461453" id="r_a2eb7bade10909fc69db9b8f320461453"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2eb7bade10909fc69db9b8f320461453">isRotating</a> = false</td></tr>
+<tr class="separator:a2eb7bade10909fc69db9b8f320461453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dcc367abe9ca8fdfaa2822a8218863d" id="r_a6dcc367abe9ca8fdfaa2822a8218863d"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dcc367abe9ca8fdfaa2822a8218863d">startRotation</a></td></tr>
+<tr class="separator:a6dcc367abe9ca8fdfaa2822a8218863d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa62b57d0cb6d2cc4afc8e46ab3814174" id="r_aa62b57d0cb6d2cc4afc8e46ab3814174"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa62b57d0cb6d2cc4afc8e46ab3814174">targetRotation</a></td></tr>
+<tr class="separator:aa62b57d0cb6d2cc4afc8e46ab3814174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6715d2fc043a046162344e4f10caf505" id="r_a6715d2fc043a046162344e4f10caf505"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6715d2fc043a046162344e4f10caf505">rotationTime</a></td></tr>
+<tr class="separator:a6715d2fc043a046162344e4f10caf505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a372a5e7e5abdcc7f2aa7a5866fc723c4" id="r_a372a5e7e5abdcc7f2aa7a5866fc723c4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a372a5e7e5abdcc7f2aa7a5866fc723c4">yInitialCamera</a></td></tr>
+<tr class="separator:a372a5e7e5abdcc7f2aa7a5866fc723c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a995f521b54729cedadb56ace4ed24c74" id="r_a995f521b54729cedadb56ace4ed24c74"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a995f521b54729cedadb56ace4ed24c74">onRotationComplete</a></td></tr>
+<tr class="separator:a995f521b54729cedadb56ace4ed24c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -170,8 +193,8 @@ Static Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class handles the camera functionality, rotation, mouse movement and all other core components of the Main Camera and any other camera in the scenes. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="af62b76c6eeb688b102d1a208e330a6b5" name="af62b76c6eeb688b102d1a208e330a6b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af62b76c6eeb688b102d1a208e330a6b5">&#9670;&#160;</a></span>DoLadderCameraControls()</h2>
+<a id="abfed2be74dece66102bdc411e839b274" name="abfed2be74dece66102bdc411e839b274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfed2be74dece66102bdc411e839b274">&#9670;&#160;</a></span>AlignCameraToLadder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,7 +203,70 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void FPCharacterController.FollowPlayer.DoLadderCameraControls </td>
+          <td class="memname">void FPCharacterController.FollowPlayer.AlignCameraToLadder </td>
+          <td>(</td>
+          <td class="paramtype">Transform</td>          <td class="paramname"><span class="paramname"><em>ladder</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>duration</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>onComplete</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Aligns the Main Camera to the ladder when attempting to climb it. The y-axis is important as we are trying to align the camera to the ladder. </p>
+
+</div>
+</div>
+<a id="a0f3aa23a3e1ea6158983d28e3956afba" name="a0f3aa23a3e1ea6158983d28e3956afba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f3aa23a3e1ea6158983d28e3956afba">&#9670;&#160;</a></span>HandleAlternateCameraControls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FPCharacterController.FollowPlayer.HandleAlternateCameraControls </td>
+          <td>(</td>
+          <td class="paramtype">Quaternion</td>          <td class="paramname"><span class="paramname"><em>currentRotation</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handles the different non-default camera functionality and movement. The currentRotation is used which can be different based on the script in use, and is needed in order to clamp the horizontal camera rotation when mantling and climbing. </p>
+
+</div>
+</div>
+<a id="a089d3e835f301f33fdf1ef3fdeb77753" name="a089d3e835f301f33fdf1ef3fdeb77753"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a089d3e835f301f33fdf1ef3fdeb77753">&#9670;&#160;</a></span>HandleNormalCameraControls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FPCharacterController.FollowPlayer.HandleNormalCameraControls </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -193,55 +279,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ac97e5361d6aae25c6e9de7c12026cf61" name="ac97e5361d6aae25c6e9de7c12026cf61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac97e5361d6aae25c6e9de7c12026cf61">&#9670;&#160;</a></span>DoMantleCameraControls()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FPCharacterController.FollowPlayer.DoMantleCameraControls </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a100d504dc55932b1c395d33b9d1a5b78" name="a100d504dc55932b1c395d33b9d1a5b78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a100d504dc55932b1c395d33b9d1a5b78">&#9670;&#160;</a></span>DoNormalCameraControls()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FPCharacterController.FollowPlayer.DoNormalCameraControls </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>This method is the default Main Camera movement and functionality that is used. </p>
 
 </div>
 </div>
@@ -267,6 +305,35 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Positions the Main Camera based on player position and offset. </p>
+
+</div>
+</div>
+<a id="a191b9f63a82db8c5897d434a8f931be9" name="a191b9f63a82db8c5897d434a8f931be9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a191b9f63a82db8c5897d434a8f931be9">&#9670;&#160;</a></span>RotateToLadder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FPCharacterController.FollowPlayer.RotateToLadder </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This method begins the rotation towards the ladder when attempting to climb. </p>
 
 </div>
 </div>
@@ -328,9 +395,31 @@ Static Private Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_ladder.html">Ladder</a> FPCharacterController.FollowPlayer.climbing</td>
+          <td class="memname"><a class="el" href="class_f_p_character_controller_1_1_ladder.html">Ladder</a> FPCharacterController.FollowPlayer.climbing</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2eb7bade10909fc69db9b8f320461453" name="a2eb7bade10909fc69db9b8f320461453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eb7bade10909fc69db9b8f320461453">&#9670;&#160;</a></span>isRotating</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FPCharacterController.FollowPlayer.isRotating = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -373,6 +462,28 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">Vector3 FPCharacterController.FollowPlayer.offset = new Vector3(0f, 0.760f, 0f)</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a995f521b54729cedadb56ace4ed24c74" name="a995f521b54729cedadb56ace4ed24c74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a995f521b54729cedadb56ace4ed24c74">&#9670;&#160;</a></span>onRotationComplete</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action FPCharacterController.FollowPlayer.onRotationComplete</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -435,6 +546,42 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a41184d66a91708f8ad5751337dbfaee0" name="a41184d66a91708f8ad5751337dbfaee0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41184d66a91708f8ad5751337dbfaee0">&#9670;&#160;</a></span>rotationDuration</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FPCharacterController.FollowPlayer.rotationDuration = 1.5f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6715d2fc043a046162344e4f10caf505" name="a6715d2fc043a046162344e4f10caf505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6715d2fc043a046162344e4f10caf505">&#9670;&#160;</a></span>rotationTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FPCharacterController.FollowPlayer.rotationTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8185cac1b4ae8f8297bc4dac688a2c27" name="a8185cac1b4ae8f8297bc4dac688a2c27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8185cac1b4ae8f8297bc4dac688a2c27">&#9670;&#160;</a></span>sensitivity</h2>
 
@@ -457,8 +604,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac7c70303f2861b656e52bd10f2e3168d" name="ac7c70303f2861b656e52bd10f2e3168d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7c70303f2861b656e52bd10f2e3168d">&#9670;&#160;</a></span>willClimb</h2>
+<a id="a6dcc367abe9ca8fdfaa2822a8218863d" name="a6dcc367abe9ca8fdfaa2822a8218863d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dcc367abe9ca8fdfaa2822a8218863d">&#9670;&#160;</a></span>startRotation</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -467,7 +614,29 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool FPCharacterController.FollowPlayer.willClimb</td>
+          <td class="memname">Quaternion FPCharacterController.FollowPlayer.startRotation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa62b57d0cb6d2cc4afc8e46ab3814174" name="aa62b57d0cb6d2cc4afc8e46ab3814174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa62b57d0cb6d2cc4afc8e46ab3814174">&#9670;&#160;</a></span>targetRotation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Quaternion FPCharacterController.FollowPlayer.targetRotation</td>
         </tr>
       </table>
   </td>
@@ -545,6 +714,28 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a372a5e7e5abdcc7f2aa7a5866fc723c4" name="a372a5e7e5abdcc7f2aa7a5866fc723c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a372a5e7e5abdcc7f2aa7a5866fc723c4">&#9670;&#160;</a></span>yInitialCamera</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FPCharacterController.FollowPlayer.yInitialCamera</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af7ede6824881786898cc71f51a58aa70" name="af7ede6824881786898cc71f51a58aa70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af7ede6824881786898cc71f51a58aa70">&#9670;&#160;</a></span>yRotationLimit</h2>
 
@@ -590,6 +781,9 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Assets/SwitchbackGames/FPCharacterController/Scripts/<b>FollowPlayer.cs</b></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

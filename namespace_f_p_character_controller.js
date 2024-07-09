@@ -3,6 +3,7 @@ var namespace_f_p_character_controller =
     [ "BouncePad", "class_f_p_character_controller_1_1_bounce_pad.html", "class_f_p_character_controller_1_1_bounce_pad" ],
     [ "FollowPlayer", "class_f_p_character_controller_1_1_follow_player.html", "class_f_p_character_controller_1_1_follow_player" ],
     [ "HeadBobbing", "class_f_p_character_controller_1_1_head_bobbing.html", "class_f_p_character_controller_1_1_head_bobbing" ],
+    [ "Ladder", "class_f_p_character_controller_1_1_ladder.html", "class_f_p_character_controller_1_1_ladder" ],
     [ "Mantle", "class_f_p_character_controller_1_1_mantle.html", "class_f_p_character_controller_1_1_mantle" ],
     [ "PlatformAnimMove", "class_f_p_character_controller_1_1_platform_anim_move.html", "class_f_p_character_controller_1_1_platform_anim_move" ],
     [ "PlatformPingPong", "class_f_p_character_controller_1_1_platform_ping_pong.html", "class_f_p_character_controller_1_1_platform_ping_pong" ],

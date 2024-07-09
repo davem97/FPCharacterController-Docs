@@ -14,6 +14,8 @@ var searchData=
   ['standingcapsulescale_11',['standingCapsuleScale',['../class_f_p_character_controller_1_1_player_movement.html#a17dcea369da49ea8f5be04e3b7a6dc34',1,'FPCharacterController::PlayerMovement']]],
   ['startpos_12',['startPos',['../class_f_p_character_controller_1_1_platform_rotation.html#aee05be3d696e8adce443ee0fe1a201ba',1,'FPCharacterController.PlatformRotation.startPos'],['../class_f_p_character_controller_1_1_platform_side_to_side.html#ad5fe10000da8574132da5d121c457578',1,'FPCharacterController.PlatformSideToSide.startPos']]],
   ['startposition_13',['startPosition',['../class_f_p_character_controller_1_1_platform_ping_pong.html#a7090cfa4324ff5ea32e79ce9723eb939',1,'FPCharacterController.PlatformPingPong.startPosition'],['../class_f_p_character_controller_1_1_second_ping_pong.html#a5ed57bc0d7f3748b54bc8c8ac21fed02',1,'FPCharacterController.SecondPingPong.startPosition'],['../class_f_p_character_controller_1_1_platform_up_down.html#a1533504d8bad49961dabd1385dc0ebad',1,'FPCharacterController.PlatformUpDown.startPosition']]],
-  ['starttime_14',['startTime',['../class_f_p_character_controller_1_1_player_movement.html#a368303a1543f42e36d1b60a98c1dc63c',1,'FPCharacterController::PlayerMovement']]],
-  ['swimspeed_15',['swimSpeed',['../class_f_p_character_controller_1_1_water.html#abea1d79157f3771a02ac5485ce3a07a8',1,'FPCharacterController::Water']]]
+  ['startrotation_14',['startRotation',['../class_f_p_character_controller_1_1_follow_player.html#a6dcc367abe9ca8fdfaa2822a8218863d',1,'FPCharacterController::FollowPlayer']]],
+  ['starttime_15',['startTime',['../class_f_p_character_controller_1_1_player_movement.html#a368303a1543f42e36d1b60a98c1dc63c',1,'FPCharacterController::PlayerMovement']]],
+  ['starttimer_16',['startTimer',['../class_f_p_character_controller_1_1_mantle.html#a734f5e8f62ee8c79c8a8231d1cd49889',1,'FPCharacterController::Mantle']]],
+  ['swimspeed_17',['swimSpeed',['../class_f_p_character_controller_1_1_water.html#abea1d79157f3771a02ac5485ce3a07a8',1,'FPCharacterController::Water']]]
 ];

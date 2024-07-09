@@ -8,7 +8,7 @@ var class_f_p_character_controller_1_1_platform_up_down =
     [ "Update", "class_f_p_character_controller_1_1_platform_up_down.html#aac338fa4a9681b2923802b40e1960ce3", null ],
     [ "height", "class_f_p_character_controller_1_1_platform_up_down.html#a83f10cbe73e908c0eb3cf875d4894884", null ],
     [ "isParented", "class_f_p_character_controller_1_1_platform_up_down.html#ae3b2b03719b79d4152c8c077b9392217", null ],
-    [ "Player", "class_f_p_character_controller_1_1_platform_up_down.html#a616d9f07a71d53a27edd11767aadf26a", null ],
+    [ "player", "class_f_p_character_controller_1_1_platform_up_down.html#a804cbdecd2eaa6deb26385baea51a7d9", null ],
     [ "speed", "class_f_p_character_controller_1_1_platform_up_down.html#a36fac29b9a31d289b704804eccd00f14", null ],
     [ "startPosition", "class_f_p_character_controller_1_1_platform_up_down.html#a1533504d8bad49961dabd1385dc0ebad", null ]
 ];

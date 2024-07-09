@@ -19,7 +19,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="my_customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="custom_doxygen.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -128,14 +128,19 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a130f430839876f88be8aa17d2d0a090a" id="r_a130f430839876f88be8aa17d2d0a090a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a130f430839876f88be8aa17d2d0a090a">Update</a> ()</td></tr>
 <tr class="separator:a130f430839876f88be8aa17d2d0a090a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaed61c65156fcdbd520152a435fd39cb" id="r_aaed61c65156fcdbd520152a435fd39cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaed61c65156fcdbd520152a435fd39cb">CheckMantleState</a> ()</td></tr>
+<tr class="memdesc:aaed61c65156fcdbd520152a435fd39cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to make sure the player is not currently mantling.  <br /></td></tr>
 <tr class="separator:aaed61c65156fcdbd520152a435fd39cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ee3afafec629d8b6033ff0195a12334" id="r_a0ee3afafec629d8b6033ff0195a12334"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ee3afafec629d8b6033ff0195a12334">HandleWaterMovement</a> ()</td></tr>
+<tr class="memdesc:a0ee3afafec629d8b6033ff0195a12334"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the initial pushing the player down when first entering water, and also the water movement.  <br /></td></tr>
 <tr class="separator:a0ee3afafec629d8b6033ff0195a12334"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8dc7b9eef2abae6201506c81c5ba7de" id="r_aa8dc7b9eef2abae6201506c81c5ba7de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8dc7b9eef2abae6201506c81c5ba7de">HandleWaterRays</a> ()</td></tr>
+<tr class="memdesc:aa8dc7b9eef2abae6201506c81c5ba7de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layer checks, Raycasts and adds height limits when in water.  <br /></td></tr>
 <tr class="separator:aa8dc7b9eef2abae6201506c81c5ba7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab67cd02ff59430695af0bfcdb7391ad7" id="r_ab67cd02ff59430695af0bfcdb7391ad7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab67cd02ff59430695af0bfcdb7391ad7">HandleActionInput</a> ()</td></tr>
+<tr class="memdesc:ab67cd02ff59430695af0bfcdb7391ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the key inputs for water movement.  <br /></td></tr>
 <tr class="separator:ab67cd02ff59430695af0bfcdb7391ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47019b46832d2b3bce8deadd83a20224" id="r_a47019b46832d2b3bce8deadd83a20224"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47019b46832d2b3bce8deadd83a20224">ResetAction</a> ()</td></tr>
+<tr class="memdesc:a47019b46832d2b3bce8deadd83a20224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the boolean via Invoke.  <br /></td></tr>
 <tr class="separator:a47019b46832d2b3bce8deadd83a20224"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -205,6 +210,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Checks to make sure the player is not currently mantling. </p>
+
 </div>
 </div>
 <a id="ab67cd02ff59430695af0bfcdb7391ad7" name="ab67cd02ff59430695af0bfcdb7391ad7"></a>
@@ -229,6 +236,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Handles the key inputs for water movement. </p>
 
 </div>
 </div>
@@ -255,6 +264,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Handles the initial pushing the player down when first entering water, and also the water movement. </p>
+
 </div>
 </div>
 <a id="aa8dc7b9eef2abae6201506c81c5ba7de" name="aa8dc7b9eef2abae6201506c81c5ba7de"></a>
@@ -279,6 +290,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Layer checks, Raycasts and adds height limits when in water. </p>
 
 </div>
 </div>
@@ -379,6 +392,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Resets the boolean via Invoke. </p>
 
 </div>
 </div>
@@ -865,6 +880,9 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Assets/SwitchbackGames/FPCharacterController/Scripts/<b>Water.cs</b></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
